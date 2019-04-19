@@ -1,0 +1,190 @@
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    color:rgb(117, 117, 117);
+}
+
+/**
+* Header-bereich
+*/
+
+.header {
+    height:625px;
+    background-image:url("../Fotos/The_PingPong_Project/pingpong_moon.jpg");
+    background-size:cover;
+    background-position:50% 10%;
+}
+
+.header2 {
+    height:625px;
+    background-image:url("../Fotos/random_photos/P1040214.jpg");
+    background-size:cover;
+    background-position:90% 50%;
+}
+
+.header-navbar-links {
+    color:white;
+    float:right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.header-navbar-links a {
+    color:white;
+    float:right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.header-navbar-links li {
+    float:left;
+    list-style-type: none;
+    margin-left: 27px;
+    text-decoration: none;
+}
+
+.header-brand-wrapper {
+    margin-top: 50px;
+    float: left;
+}
+
+.header-brand {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    display: block;
+    margin-top:-10%;
+}
+
+.slogan {
+    padding-top: 170px;
+    color:white;
+    text-align: center;
+    text-shadow: 0px 0px 3px;
+}
+
+.slogan2 {
+    padding-top: 170px;
+    color:black;
+    text-align: center;
+    text-shadow: 0px 0px 3px;
+}
+
+.slogan-top {
+    font-size: 170%;
+    font-weight: lighter;
+}
+
+.slogan-buttom {
+    font-size:300%;
+    font-weight:bold;
+}
+
+.slogan-button {
+    color:white;
+    text-shadow: black;
+}
+.slogan-button2 {
+    color:black;
+    text-shadow: black;
+}
+
+.slogan-button:hover {
+    color:white;
+    text-shadow: black;
+}
+
+/**
+* Service-Bereich
+*/
+
+.services {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.service-gray {
+    background-color: rgb(245, 245, 245)
+}
+
+.service-title {
+    font-weight: lighter;
+    color: rgb(30, 30, 30)
+}
+
+.icon{
+    color: rgb(224, 224, 224);
+    font-size:1250%;
+    text-align: center;
+    margin-top:-10%;
+    margin-bottom:-30%;
+}
+
+.icon2{
+    color: rgb(224, 224, 224);
+    font-size:1250%;
+    text-align: center;
+    margin-top:-10%;
+    margin-bottom:30%;
+}
+
+/*
+* Feature-Bereich
+*/
+
+.features{
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+
+.feature-icon{
+    width: 70px;
+    height: 60px;
+    padding-top:14px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 35px;
+    color:white;
+    text-align:center;
+    font-size: 35px;
+    float:left;
+}
+
+.feature-text{
+    margin-left: 90px;
+}
+
+.feature-text h5{
+    margin-bottom: 10px;
+    font-size: 150%;
+    color:rgb(30, 30, 30);
+}
+
+/**
+*Clients
+*/
+
+.clients {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(245, 245, 245)
+}
+
+.clients-heading{
+    font-weight: lighter;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.clients-subheading{
+    text-align: center;
+}
+
+.client-img{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 100000px;
+    width:100%
+}
